@@ -1,0 +1,44 @@
+/* Corrige tamanho */
+* {
+  box-sizing: border-box;
+}
+
+/* Container */
+.IMC {
+  max-width: 320px;
+  width: 90%;
+  margin: 100px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Botão */
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* Hover azul */
+button:hover {
+  background-color: #2196f3;
+  color: white;
+}
